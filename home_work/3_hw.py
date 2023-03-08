@@ -32,7 +32,7 @@ def check_more_10(num_1, num_2, num_3):
     list_num = [num_1, num_2, num_3]
     count = 0
     for number in list_num:
-        if number >= 10:
+        if number > 10:
             count += 1
     if count == 3:
         print('yes')
