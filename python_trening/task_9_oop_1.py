@@ -1,24 +1,30 @@
-class Input:
+from task_9_cheks import Cheks
 
+
+class Input(Cheks):
     def __init__(self, text, loc):
+        super().__init__(loc)
         self.text = text
         self.loc = loc
 
 
-class Button:
+class Button(Cheks):
     def __init__(self, text, loc):
+        super().__init__(loc)
         self.text = text
         self.loc = loc
 
 
-class Title:
+class Title(Cheks):
     def __init__(self, text, loc):
+        super().__init__(loc)
         self.text = text
         self.loc = loc
 
 
-class Link:
+class Link(Cheks):
     def __init__(self, text, loc):
+        super().__init__(loc)
         self.text = text
         self.loc = loc
 
@@ -28,7 +34,7 @@ button = Button('button', '123')
 title = Title('title', '123')
 link = Link('link', '123')
 
-print(input1.text, input1.loc)
-print(button.text, button.loc)
-print(title.text, title.loc)
-print(link.text, link.loc)
+print(input1.check_text())
+print(button.check_text())
+print(title.check_text())
+print(link.check_text())

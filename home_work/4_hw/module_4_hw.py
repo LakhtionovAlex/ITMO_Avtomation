@@ -1,0 +1,45 @@
+from hw_4 import *
+
+# 1 Задача
+rectangle_1 = Rectangle(5, 5)
+rectangle_2 = Rectangle(8, 15)
+rectangle_3 = Rectangle(10, 20)
+rectangle_1.square()
+rectangle_1.perimeter()
+rectangle_2.square()
+rectangle_2.perimeter()
+rectangle_3.square()
+rectangle_3.perimeter()
+
+# 2 Задача
+Math.addition(5, 5)
+Math.multiplication(2, 2)
+Math.division(10, 2)
+Math.subtraction(20, 10)
+
+# 3 Задача
+text_box = ButtonLight('Text Box', 'button', '')
+check_box = ButtonLight('Check Box', 'button', '')
+radio_button = ButtonLight('Radio Button', 'button', '')
+web_tables = ButtonLight('Web Tables', 'button', '')
+buttons = ButtonLight('Buttons', 'button', '')
+links = ButtonLight('Links', 'button', '')
+broken_links = ButtonLight('Broken links - images', 'button', '')
+dynamic_properties = ButtonLight('Dynamic Properties', 'button', '')
+
+text_box.text_output()
+text_box.click_button()
+check_box.text_output()
+check_box.click_button()
+radio_button.text_output()
+radio_button.click_button()
+web_tables.text_output()
+web_tables.click_button()
+buttons.text_output()
+buttons.click_button()
+links.text_output()
+links.click_button()
+broken_links.text_output()
+broken_links.click_button()
+dynamic_properties.text_output()
+dynamic_properties.click_button()
