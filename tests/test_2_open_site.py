@@ -6,7 +6,6 @@ driver = webdriver.Chrome()
 driver.get(link)
 
 
-
 icon = driver.find_element(By.CSS_SELECTOR, 'span')
 button = driver.find_element(By.CSS_SELECTOR, 'div.home-body > div > div:nth-child(1)')
 footer_text = driver.find_element(By.CSS_SELECTOR, 'span')
